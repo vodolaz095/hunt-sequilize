@@ -1,0 +1,54 @@
+{
+  "name": "hunt-sequilize",
+  "version": "0.0.1",
+  "description": "Use Sequilize.js models in Hunt.js application",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.29",
+    "npm": ">=1.4.3"
+  },
+  "os": [ "linux", "darwin" ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vodolaz095/hunt-sequilize.git"
+  },
+  "scripts": {
+    "start": "node example.js",
+    "test": "./node_modules/.bin/mocha --reporter spec; ./generateDocs.sh",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
+  },
+  "keywords": [
+    "hunt",
+    "huntjs",
+    "sequilize",
+    "mysql",
+    "sqlite3",
+    "mariadb",
+    "pg",
+    "postgresql",
+    "orm",
+    "relational",
+    "sql"
+  ],
+  "author": "Anatolij Ostroumov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vodolaz095/hunt-sequilize/issues"
+  },
+  "dependencies": {
+    "mysql": ">=2.3.2",
+    "pg": ">=3.3.0",
+    "sqlite3": ">=2.2.3",
+    "colors": ">=0.6.2",
+    "sequelize": ">=1.7.9"
+  },
+  "devDependencies": {
+    "async":">=0.9.0",
+    "hunt":">=0.2.0",
+    "mocha": ">=1.20.0",
+    "istanbul": "*",
+    "should": "3.x",
+    "jsdoc": "*",
+    "sqlite3": "*"
+  }
+}
