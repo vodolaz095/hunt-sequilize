@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "node example.js",
-    "test": "./node_modules/.bin/mocha --reporter spec; ./generateDocs.sh",
+    "test": "./node_modules/.bin/mocha --reporter spec",
     "coverage": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
   },
   "keywords": [
